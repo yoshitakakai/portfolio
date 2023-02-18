@@ -160,10 +160,12 @@
 }
 
 .top-image-margin{
-    margin: 20rem 0;
+    margin: 17rem 0;
 }
 
-
+singletop-image-margin{
+  margin: 8rem 0;
+}
 
 /*==================================================
 スライダーのためのcss
@@ -205,5 +207,23 @@
     min-width: 100%;
 }
 
+/*imgタグ修正*/
+.p-3{
+  padding: 0 !important;
+}
+.border{
+  border: none !important;
+}
 
+.img-fluid{
+  max-width: 80% !important;
+}
 
+.rounded{
+  border-radius: 1.25rem !important;
+}
+
+/* バッジ修正 */
+.badge{
+  padding: .35em 4em !important;
+}
