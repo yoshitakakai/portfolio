@@ -211,9 +211,6 @@ singletop-image-margin{
 .p-3{
   padding: 0 !important;
 }
-.border{
-  border: none !important;
-}
 
 .img-fluid{
   max-width: 80% !important;
@@ -223,7 +220,3 @@ singletop-image-margin{
   border-radius: 1.25rem !important;
 }
 
-/* バッジ修正 */
-.badge{
-  padding: .35em 4em !important;
-}
