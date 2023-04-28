@@ -1,0 +1,12 @@
+.bg-danger{
+  background-color: #ff7f9a !important;
+}
+
+.nav-img-custom{
+  width: 6%;
+  margin-right: 10rem;
+}
+
+li{
+  padding: 0 1.5rem !important;
+}
