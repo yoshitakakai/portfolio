@@ -1,0 +1,36 @@
+
+/* コーポレート */
+
+.first-section{
+  background: url("../../images/image01.jpg") center no-repeat;
+  background-size: cover;
+  padding: 10rem 2rem;
+}
+
+.display-1{
+  font-size: calc(1rem + 10vw) !important;
+}
+
+.section-padding{
+  padding: 2rem;
+}
+
+.second-section-text{
+  font-weight: 100;
+  font-size: calc(1rem + 2vw);
+}
+
+.third-section-img{
+  width: 100%;
+}
+
+.btn-margin-bottom{
+  margin-bottom: 2rem;
+}
+
+.contact-section{
+  background: url("../../images/image04.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
