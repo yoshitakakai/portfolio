@@ -1,5 +1,13 @@
-body{
-background-color: #ff7f9a;
+.pink-body{
+  background-color: #ff7f9a;
+}
+
+.grape-body{
+  background-color: lightcoral;
+}
+
+.info-pink{
+  color: #ff7f9a;
 }
 
 /* コーポレート */
@@ -32,18 +40,14 @@ background-color: #ff7f9a;
   font-size: calc(1rem + 1vw);
 }
 
-.third-section-img{
-  width: 100%;
-}
-
 .btn-margin-bottom{
   margin-bottom: 2rem;
 }
 
-.contact-section{
-  background: url("../../images/image04.jpg");
+.footer-bg{
+  background: url("../../images/TE03.jpg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
 }
 
@@ -96,4 +100,8 @@ background-color: #ff7f9a;
 
 li{
   padding: 0 1.5rem !important;
+}
+
+.navbar-toggler{
+  border: none !important;
 }
