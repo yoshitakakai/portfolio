@@ -1,3 +1,90 @@
+body{
+background-color: #ff7f9a;
+}
+
+/* コーポレート */
+
+.first-section{
+  background: url("../../images/TE03.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 9rem 0 5rem 0;
+}
+
+.firstsection-left-img{
+  background: url("../../images/image14.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+/*.display-1{
+  font-size: calc(1rem + 7vw) !important;
+}*/
+
+.section-padding{
+  padding: 2rem;
+}
+
+.second-section-text{
+  font-weight: 400;
+  font-size: calc(1rem + 1vw);
+}
+
+.third-section-img{
+  width: 100%;
+}
+
+.btn-margin-bottom{
+  margin-bottom: 2rem;
+}
+
+.contact-section{
+  background: url("../../images/image04.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+/* 保育園 */
+
+.wf-nicomoji {
+  font-family: "Nico Moji";
+}
+
+.border-image-logo {
+  border-left: 4rem solid;
+  border-image: url('../../images/image05.png') 1 700 stretch;
+}
+
+.img-custom{
+  width: 100%;
+  height: 100%;
+}
+
+.second-bg{
+  background: url("../../images/image11.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.section-padding-plus{
+  padding: 2rem;
+}
+
+.news-border {
+  border-top: 3rem solid;
+  border-bottom: 3rem solid;
+  padding: 2rem 0;
+}
+
+.top-carousel-margin{
+  margin: 2rem 0rem;
+}
+
+
 .bg-danger{
   background-color: #ff7f9a !important;
 }

@@ -2,11 +2,11 @@
 /* コーポレート */
 
 .first-section{
-  background: url("../../images/TE03.jpg");
+  /*background: url("../../images/TE03.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  padding: 9rem 0 5rem 0;
+  background-size: cover;*/
+  padding: 2rem 0;
 }
 
 .firstsection-left-img{
