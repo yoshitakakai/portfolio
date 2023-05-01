@@ -1,4 +1,6 @@
-
+.row{
+  --bs-gutter-x: 0rem;
+}
 /* コーポレート */
 
 .first-section{
@@ -47,12 +49,12 @@
 /* 保育園 */
 
 .wf-nicomoji {
-  font-family: "Nico Moji";
+  font-family:"Nico Moji";
 }
 
 .border-image-logo {
-  border-left: 4rem solid;
-  border-image: url('../../images/image05.png') 1 700 stretch;
+  border-left: 2rem solid;
+  border-image: url('../../images/image05.png') 1 630 repeat;
 }
 
 .img-custom{
@@ -60,36 +62,47 @@
   height: 100%;
 }
 
+.img-col{
+  width: 80%;
+  height: 80%;
+}
+
+.img-contact{
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.img-map{
+  width: 100%;
+  height: 350px;
+}
+
 .second-bg{
-  background: url("../../images/image11.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  border-top: 3rem solid;
+  border-bottom: 3rem solid;
+  border-image: url('../../images/image11-2.png') 350 repeat;
 }
 
-.section-padding-plus{
-  padding: 2rem;
-}
-
-.border-image-news {
-  border-left: 4rem solid;
-  border-image: url('../../images/image12.png') 1 700 stretch;
+.news-padding{
+  padding: 0 2rem;
 }
 
 .border-image-top {
-  border-top: 3rem solid;
-  border-bottom: 3rem solid;
-  border-image: url('../../images/image14.png') 139 stretch;
-  padding: 2rem 0;
-}
-
-.news-border {
-  border-top: 3rem solid;
-  border-bottom: 3rem solid;
-  border-image: url('../../images/image14.png') 90 stretch;
+  border-top: 1.5rem solid;
+  border-bottom: 1.5rem solid;
+  border-image: url('../../images/image14.png') 139 repeat;
   padding: 2rem 0;
 }
 
 .top-carousel-margin{
-  margin: 2rem 0rem;
+  margin: 2rem 0;
+}
+
+.logo-bg{
+  background: url("../../images/image05.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding: 6rem 0 0 0;
 }
